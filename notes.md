@@ -4,6 +4,11 @@
 
 - [CSS3 complete course](https://www.youtube.com/watch?v=OXGznpKZ_sA&list=PLWKjhJtqVAbnSe1qUNMG7AbPmjIG54u88&index=7)
 
+## Questions
+
+- colors can be applied with words, rgb, rgba, exadecimal. Why use one?
+- I have almost no sense of beauty or imagination for graphic things. Where can I see examples or steal ideas
+
 ## Best practices
 
 - don't use inline style, prefer external stylesheet

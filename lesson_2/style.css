@@ -1,0 +1,13 @@
+body {
+  background-color: papayawhip;
+  color: darkblue;
+}
+
+h2 {
+  color: rgb(255, 0, 0);
+  /* color: rgba(0, 0, 255, 0.4); */
+}
+
+p {
+  color: #a63ac4db;
+}
