@@ -1,0 +1,60 @@
+/* 
+	universal selector
+	useful to understand every element space 
+*/
+* {
+  border: 1px solid lightcoral;
+}
+
+html {
+  font-size: 22px;
+}
+
+/* element selectors */
+body {
+}
+
+main {
+  font-family: monospace;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* all h1's and h2's in all document */
+h1,
+h2 {
+  color: blue;
+}
+
+p {
+  color: purple;
+}
+
+/* all span inside a p, better use a class */
+/* p span {
+  text-transform: uppercase;
+  background-color: gold;
+} */
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+/* class selectors */
+.gray {
+  color: grey;
+}
+
+/* 
+  id selectors
+  Rarely used, prefer class and element selectors
+*/
+#second {
+  font-style: italic;
+}
