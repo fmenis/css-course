@@ -8,6 +8,8 @@
 
 - colors can be applied with words, rgb, rgba, exadecimal. Why use one?
 - I have almost no sense of beauty or imagination for graphic things. Where can I see examples or steal ideas
+- understand where use px, rem and em
+- do you use css reset (style.css of lesson 3)?
 
 ## Best practices
 
@@ -17,6 +19,7 @@
 - form elements (button, input, textarea, select) don't inherit fonts settings
 - put font settings in html selector
 - don't use the !important rule (indicates that css is not well organized)
+- use https://coolors.co/ for choose good contrast rations
 
 ## Specificity
 

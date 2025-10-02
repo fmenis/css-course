@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  border: 2px solid red;
+  width: 50%;
+}
+
+header {
+  width: 100%;
+}
+
+main {
+  font-size: 2rem;
+}
+
+p {
+  /* two times the default 16px  */
+  font-size: 2rem;
+
+  /* if "em" is used, looks to the parent and double, not onlt the root */
+}
