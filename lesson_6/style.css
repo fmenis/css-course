@@ -1,0 +1,35 @@
+body {
+  font-size: 1rem;
+}
+
+.columns {
+  column-count: 4;
+  /* colonne di almeno 250px, questo vuol dire che variando la grandezza della pagina potranno essere meno di 4 */
+  column-width: 250px;
+  column-rule: 3px solid black;
+  column-gap: 3rem;
+}
+
+.columns p {
+  margin-top: 0;
+}
+
+.columns h2 {
+  background-color: #333;
+  color: #fff;
+  break-inside: avoid;
+  break-before: avoid;
+}
+
+.columns .quote {
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #333;
+  column-span: all;
+}
+
+/* la stanghetta sta sempre sulla stessa linea della parola */
+.nowrap {
+  white-space: nowrap;
+}
