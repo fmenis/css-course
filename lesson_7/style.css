@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+  min-height: 200vh;
+}
+
+.outer-container {
+  border: 3px dashed #000;
+  width: 75vw;
+  height: 85vh;
+  margin: 40px auto;
+  position: relative;
+}
+
+.inner-container {
+  border: 3px solid #00f;
+  width: 40vw;
+  height: 50vh;
+  margin: 200px auto;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* 
+  position: absolute ha bisogno di un position:relative parent, altrimenti
+  l'elemento verrà posizionato in base al box del browser (body) 
+*/
+.absolute {
+  background-color: #00f;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  z-index: 1;
+}
+
+/* 
+  position: relative NON ha bisogno di un position:relative parent,
+  verrà posizionato relativamente al proprio parent in ogni caso
+*/
+.relative {
+  background-color: red;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+/* 
+  rimarrà in questa posizione fissa anche se la pagina viene scrollata
+*/
+.fixed {
+  background-color: green;
+  position: fixed;
+  top: 50px;
+}
+
+.sticky {
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
