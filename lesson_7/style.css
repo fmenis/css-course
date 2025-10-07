@@ -31,9 +31,9 @@ body {
   padding: 1rem;
 }
 
-/* 
+/*
   position: absolute ha bisogno di un position:relative parent, altrimenti
-  l'elemento verrà posizionato in base al box del browser (body) 
+  l'elemento verrà posizionato in base al box del browser (body)
 */
 .absolute {
   background-color: #00f;
@@ -43,7 +43,7 @@ body {
   z-index: 1;
 }
 
-/* 
+/*
   position: relative NON ha bisogno di un position:relative parent,
   verrà posizionato relativamente al proprio parent in ogni caso
 */
@@ -54,9 +54,6 @@ body {
   left: 20px;
 }
 
-/* 
-  rimarrà in questa posizione fissa anche se la pagina viene scrollata
-*/
 .fixed {
   background-color: green;
   position: fixed;
@@ -67,4 +64,64 @@ body {
   background-color: black;
   position: sticky;
   top: 0;
+}
+
+/* next project part */
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+}
+
+.blue {
+  background-color: #00f;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+header,
+footer {
+  color: white;
+  text-align: center;
+  /* non il miglior modo per allineare verticalmente */
+  line-height: 3em;
+  height: 100px;
+  font-size: 2rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+footer {
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 2rem;
+}
+
+a:visited {
+  color: white;
+}
+
+.social {
+  background-color: royalblue;
+  color: white;
+  font-size: inherit;
+  padding: 1rem;
+  position: fixed;
+  top: 30%;
+  text-align: center;
+  z-index: 1;
 }
